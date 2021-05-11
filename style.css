@@ -8,9 +8,14 @@ html {
 body {
     font-family: 'Noto Sans JP', sans-serif;
     min-height: 100vh;
+    color: #555555;
 }
 ul {
     list-style-position: inside
+}
+a {
+    text-decoration: none;
+    color: #555555;
 }
 .wrapper {
     width: 800px;
@@ -63,7 +68,6 @@ input[type="email"] {
     margin-bottom: 15px;
 }
 .btn {
-    text-decoration: none;
     display: block;
     width: 100%;
     text-align: center;
@@ -139,7 +143,6 @@ input[type="email"] {
     margin: 0 auto;
     width: 95%;
 }
-
 .customer-company {
     text-align: left;
 }
@@ -159,6 +162,20 @@ input[type="email"] {
         width: 600px;
         margin: 0 auto;
     }
+    .customer-company {
+        width: 110px;
+    }
+    .customer-name {
+
+        width: 100px;
+    }
+    .customer-email{
+        width: 150px;
+    }
+    .edit-link-area,
+    .delete-link-area {
+        width: 60px;
+    }
 }
 
 /* max-width: 600px
@@ -167,5 +184,19 @@ input[type="email"] {
     .wrapper {
         width: 500px;
         margin: 0 auto;
+    }
+    .customer-company {
+        width: 90px;
+    }
+    .customer-name {
+
+        width: 80px;
+    }
+    .customer-email{
+        width: 130px;
+    }
+    .edit-link-area,
+    .delete-link-area {
+        width: 50px;
     }
 }

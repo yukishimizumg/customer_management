@@ -9,7 +9,7 @@ $errors = [];
 $id = filter_input(INPUT_GET, 'id');
 $customer = findCustomerById($id);
 
-// タスクの編集
+// 顧客情報の編集
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // フォームに入力されたデータの受け取り
     $company = filter_input(INPUT_POST, 'company');
@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <body>
     <div class="wrapper">
-        <h1 class="title">顧客管理アプリ</h1>
+        <h1 class="title"><a href="index.php">顧客管理アプリ</a></h1>
         <div class="form-area">
             <h2 class="sub-title">編集</h2>
             <?php if ($errors) : ?>

@@ -14,7 +14,7 @@ $customers = findCustomers();
 
 <body>
     <div class="wrapper">
-        <h1 class="title">顧客管理アプリ</h1>
+        <h1 class="title"><a href="index.php">顧客管理アプリ</a></h1>
         <div class="customer-area">
             <h2 class="sub-title">顧客リスト</h2>
             <table class="customer-list">
@@ -45,4 +45,5 @@ $customers = findCustomers();
         </div>
     </div>
 </body>
+
 </html>
